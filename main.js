@@ -6,14 +6,14 @@ function main() {
         const char = myMessage[i];
 
         if ((i % 2) == 0) {
-            result += char.toUpperCase();
+            result += char.toLocaleUpperCase();
         } else {
-            result += char;
+            result += char.toLowerCase();
         }
     }
     console.log(result);
 
-    }
+}
 
 
 main();
